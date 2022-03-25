@@ -1,0 +1,32 @@
+.div2{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.table > div {
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    padding: 30px;
+    display: grid;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+h1{
+    text-align: center;
+}
